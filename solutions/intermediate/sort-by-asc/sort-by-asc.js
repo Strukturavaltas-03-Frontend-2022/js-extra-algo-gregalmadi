@@ -1,5 +1,5 @@
-function sortByAsc (arr) {
-
+function sortByAsc(arr) {
+  return arr.sort((a, b) => a - b);
 }
 
-export default sortByAsc
+export default sortByAsc;

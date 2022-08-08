@@ -1,5 +1,5 @@
-function getTheSmallestElement (arr) {
-
+function getTheSmallestElement(arr) {
+  return arr.reduce((acc, cur) => (acc > cur ? cur : acc));
 }
 
-export default getTheSmallestElement
+export default getTheSmallestElement;

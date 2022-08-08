@@ -1,5 +1,5 @@
-function searchAndCount (arr, searchValue) {
-
+function searchAndCount(arr, searchValue) {
+  return arr.filter((el) => el === searchValue).length;
 }
 
-export default searchAndCount
+export default searchAndCount;
